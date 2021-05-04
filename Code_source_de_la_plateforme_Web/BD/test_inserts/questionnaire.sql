@@ -1,0 +1,1 @@
+INSERT INTO daadi.questionnaire (id_questionnaire, code, description, temps_estime) VALUES (1, 'QG', 'Questionnaire générale', 0.0);

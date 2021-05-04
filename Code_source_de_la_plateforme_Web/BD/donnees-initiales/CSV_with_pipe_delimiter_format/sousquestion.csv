@@ -1,0 +1,132 @@
+﻿id_sous_question|id_question|code|description
+1|1|Q.T1.1|Je fais appel à un technicien informatique de mon établissement d’enseignement.
+2|1|Q.T1.2|Je fais appel à un pair.
+3|1|Q.T1.3|Je fais appel à mes connaissances personnelles.
+4|2|Q.T2.1|Je fournis un soutien informatique de première ligne (débogage, diagnostic ce connexion réseau, compatibilité de logiciels et de navigateurs, erreur de manipulations ou autres) plutôt que d’orienter vers une ressource d’aide.
+5|2|Q.T2.2|Je les dirige vers un service d’aide technologique institutionnel dédié plutôt que de fournir un soutien technique de première ligne.
+6|2|Q.T2.3|Je les invite à régler le problème de manière autonome plutôt que de les orienter vers une ou des ressources d’aide.
+7|3|Q.T3.1|Je fournis aux étudiant.e.s une liste d’équipement à se procurer.
+8|3|Q.T3.2|Je fournis aux étudiant.e.s une liste de procédures techniques à suivre de manière autonome en vue de tester leur équipement.
+9|3|Q.T3.3|J’organise une séance synchrone lors de laquelle j’accompagne les étudiants dans leurs tests techniques.
+10|4|Q.P1.1|Exposé magistral
+11|4|Q.P1.2|Interventions de personnes extérieures
+12|4|Q.P1.3|Lectures structurées
+13|4|Q.P1.4|Présentations enregistrées ou commentées
+14|4|Q.P1.5|Capsules audios
+15|4|Q.P1.6|Capsules vidéos
+16|4|Q.P1.7|Balados
+17|4|Q.P1.8|Webinaires
+18|4|Q.P1.9|Cartes conceptuelles
+19|4|Q.P1.10|Débat
+20|4|Q.P1.11|Travail en groupe
+21|4|Q.P1.12|Étude de cas
+22|4|Q.P1.13|Jeux de rôles
+23|4|Q.P1.14|Projet
+24|4|Q.P1.15|Apprentissage par problèmes
+25|4|Q.P1.16|Ateliers
+26|4|Q.P1.17|Évaluation par les pairs
+27|4|Q.P1.18|Wiki de groupe
+28|4|Q.P1.19|Casse-tête d’expertise
+29|4|Q.P1.20|Démonstration de compétences
+30|4|Q.P1.21|Travail d’équipe
+31|4|Q.P1.22|Mises en situation
+32|4|Q.P1.23|Journal de bord réflexif
+33|4|Q.P1.24|Portfolio
+34|4|Q.P1.25|Présentation orale
+35|4|Q.P1.26|Exercices
+36|4|Q.P1.27|Tests et examens
+37|4|Q.P1.28|Forum
+38|5|Q.ET1.1|Je mobilise des outils tic qui facilitent la mémorisation des connaissances.
+39|5|Q.ET1.2|Je mobilise des outils tic qui facilitent la mise en relation des connaissances.
+40|5|Q.ET1.3|Je mobilise des outils tic qui permettent l’application de procédures ou de démarches.
+41|5|Q.ET1.4|Je mobilise des outils tic qui permettent la résolution de problèmes.
+42|6|Q.TD1.1|Je mobilise des outils technologiques propres à mon champ disciplinaire pour illustrer des notions théoriques.
+43|6|Q.TD1.2|Je mobilise des outils technologiques propres à mon champ disciplinaire pour produire des mises en situation authentiques à faire vivre aux étudiant.e.s.
+44|6|Q.TD1.3|Mes étudiant.e.s mobilisent des outils technologiques propres au champ disciplinaire pour réaliser des productions authentiques (ex. produit destiné à un client, plans de bâtiments, partitions interactives, site web, planification de travail, etc.).
+45|7|Q.TP1.1|Lectures structurées
+46|7|Q.TP1.2|Présentations enregistrées ou commentées
+47|7|Q.TP1.3|Capsules audios
+48|7|Q.TP1.4|Capsules vidéos sans interactivité
+49|7|Q.TP1.5|Capsules vidéos avec interactivité
+50|7|Q.TP1.6|Balados
+51|7|Q.TP1.7|Webinaires
+52|7|Q.TP1.8|Résolution de problèmes présentés en format multimédia
+53|7|Q.TP1.9|Séquences d’apprentissage autoportantes, linéaires ou à embranchements multiples
+54|7|Q.TP1.10|Guide de visionnement pour capsules audios ou vidéos
+55|7|Q.TP1.11|Cartes conceptuelles (individuel)
+56|7|Q.TP1.12|Portfolio d’apprentissage
+57|7|Q.TP1.13|Cartes conceptuelles (en équipe)
+58|7|Q.TP1.14|Débat sur un forum
+59|7|Q.TP1.15|Travail en différé sur une production d’équipe
+60|7|Q.TP1.16|Étude de cas
+61|7|Q.TP1.17|Projet individuel
+62|7|Q.TP1.18|Projet en équipe
+63|7|Q.TP1.19|Apprentissage par problèmes
+64|7|Q.TP1.20|Ateliers
+65|7|Q.TP1.21|Évaluation par les pairs
+66|7|Q.TP1.22|Wiki de groupe
+67|7|Q.TP1.23|Casse-tête d’expertise
+68|7|Q.TP1.24|Glossaire de groupe
+69|8|Q.TP2.1|exposé magistral en format webconférence
+70|8|Q.TP2.2|webinaires
+71|8|Q.TP2.3|interventions de personnes extérieures lors d’une webconférence
+72|8|Q.TP2.4|rencontres individuelles avec les étudiants lors d’un appel vidéo
+73|8|Q.TP2.5|rencontre d’équipe avec les étudiants (suivi de projet ou autre) lors d’un appel vidéo
+74|8|Q.TP2.6|présentations orales lors d’une webconférence
+75|8|Q.TP2.7|ateliers en mode webconférence scindée
+76|8|Q.TP2.8|cartes conceptuelles (en équipe) ou tempête d’idées
+77|8|Q.TP2.9|débat en sous-groupe
+78|8|Q.TP2.10|débat en grand groupe
+79|8|Q.TP2.11|travaux d’équipe
+80|8|Q.TP2.12|étude de cas
+81|8|Q.TP2.13|jeux de rôles
+82|8|Q.TP2.14|projet en équipe
+83|8|Q.TP2.15|apprentissage par problèmes
+84|8|Q.TP2.16|ateliers
+85|8|Q.TP2.17|évaluation par les pairs
+86|8|Q.TP2.18|wiki de groupe
+87|8|Q.TP2.19|casse-tête d’expertise
+88|8|Q.TP2.20|glossaire de groupe
+89|9|Q.PD1.1| 
+90|10|Q.EP1.1|Je sonde les personnes étudiantes oralement sur les difficultés qu’elles vivent dans le cadre de séances de cours en grand groupe ou dans le cadre de rencontres d’équipe.
+91|10|Q.EP1.2|Je sonde les personnes étudiantes oralement sur les difficultés qu’elles vivent lors de rencontres individuelles.
+92|10|Q.EP1.3|Je sonde les personnes étudiantes à l’écrit via des formulaires interactifs sur les difficultés qu’elles vivent
+93|10|Q.EP1.4|Je sonde les personnes étudiantes à l’écrit sur les difficultés qu’elles vivent par messagerie interne instantanée ou par courriels.
+94|10|Q.EP1.5|Je sonde les personnes étudiantes à l’écrit ou à l’oral sur les difficultés qu’elles vivent dans le cadre de forums.
+95|11|Q.EPD1.1|Je me base sur mon expérience de personne formatrice dans le cadre d’un cours issu d’un même champ disciplinaire (voire du même cours).
+96|11|Q.EPD1.2|Je me base sur mon expérience personnelle d’apprenant.
+97|11|Q.EPD1.3|Je me base sur ma connaissance des approches pédagogiques utilisées par les collègues de mon département / de ma faculté.
+98|11|Q.EPD1.4|Je me base sur l’expérience des personnes apprenantes.
+99|11|Q.EPD1.5|Je me base sur la littérature scientifique appliquée à la pédagogie dans mon contexte disciplinaire.
+100|12|Q.ETP1.1|…je propose des capsules de formation asynchrones plus fréquemment que je ne réalise des exposés magistraux en mode synchrone.
+101|12|Q.ETP1.2|…je propose la présentation orale en format synchrone plus fréquemment que je ne propose le format capsule vidéo asynchrone.
+102|12|Q.ETP1.3|…je propose des forums asynchrones plus fréquemment que je ne fais débattre en mode synchrone.
+103|12|Q.ETP1.4|…je propose plus fréquemment les études de cas synchrones en équipe qu’en individuel.
+104|12|Q.ETP1.5|…je propose plus fréquemment les études de cas en mode synchrone que asynchrone.
+105|12|Q.ETP1.6|…je propose des journaux de bord (ou autres activités réflexives) asynchrones plus fréquemment que je propose des rencontres individuelles.
+106|12|Q.ETP1.7|…je propose des jeux-questionnaires synchrones (interactifs ou non) plus fréquemment que les sondages asynchrones.
+107|12|Q.ETP1.8|…je propose des activités d’apprentissages autoportantes asynchrones plus fréquemment que je ne propose des ateliers synchrones.
+108|12|Q.ETP1.9|…je propose des groupes de discussion synchrones plus fréquemment que je ne propose des exerciseurs asynchrones.
+109|12|Q.ETP1.10|…je propose des activités d’autoévaluation asynchrones plus fréquemment que des activités d’autoévaluation synchrone.
+110|12|Q.ETP1.11|…je propose des activités d’évaluation par les pairs plus souvent que des activités d’autoévaluation.
+111|12|Q.ETP1.12|…je propose des travaux écrits asynchrones en équipe plus fréquemment que des travaux écrits individuels.
+112|13|Q.ETD1.1|Je modélise l’usage de logiciels et d’applications propres à ma discipline dans des situations d’apprentissage.
+113|13|Q.ETD1.2|J’impose l’utilisation de logiciel et d’application propres à ma discipline dans des situations d’apprentissage à réaliser.
+114|13|Q.ETD1.3|Je suggère l’utilisation de logiciels et d’applications propres à ma discipline dans des situations d’apprentissage à réaliser.
+115|13|Q.ETD1.4|J’évalue l’utilisation de logiciel et d’application propres à ma discipline dans des situations d’apprentissage à réaliser.
+116|13|Q.ETD1.5|Je recommande l’exploration de logiciels et d’applications propres à ma discipline dans des activités d’apprentissage autonomes d’enrichissement (facultatives).
+117|14|Q.TPD1.1|Je propose des lectures préalables aux rencontres synchrones.
+118|14|Q.TPD1.2|Je propose des sondages préalables aux rencontres synchrones.
+119|14|Q.TPD1.3|Je propose des capsules audio ou vidéo préalables aux rencontres synchrones.
+120|14|Q.TPD1.4|Je propose des exercices, mises en situation ou mises à l'épreuve préalables aux rencontres synchrones.
+121|14|Q.TPD1.5|Je propose une ou des évaluations diagnostiques préalables aux rencontres asynchrones
+122|14|Q.TPD1.6|Je propose des jeux-questionnaires ou des sondages lors des rencontres synchrones comme levier pour faire un retour sur des activités réalisées en mode asynchrone
+123|14|Q.TPD1.7|Je propose des ateliers lors des rencontres synchrones pour permettre l’application ou l’intégration du contenu disciplinaire exploré lors d’activités asynchrones.
+124|14|Q.TPD1.8|Je rétroagis lors de rencontres synchrones (en grand groupe, sous-groupe ou individuel) sur des activités réalisées en mode asynchrone.
+125|14|Q.TPD1.9|Je propose des activités permettant d’avancer des productions complexes entamées en asynchrone lors de rencontres synchrones.
+126|14|Q.TPD1.10|Je propose des évaluations en soutien à l’apprentissage lors de rencontres synchrones qui mobilisent des contenus acquis lors d’activités asynchrones préalables.
+127|14|Q.TPD1.11|Je rétroagis à l’écrit ou à l’audio sur des productions entamées lors de rencontres synchrones.
+128|14|Q.TPD1.12|Je propose une ou des situations problèmes à résoudre en mode asynchrone qui sont complémentaires aux activités réalisées lors de rencontres synchrones.
+129|14|Q.TPD1.13|Je propose une ou des exercices asynchrones complémentaires au contenu abordé lors de rencontres synchrones.
+130|14|Q.TPD1.14|Je propose des débats asynchrones (forums) complémentaires aux rencontres synchrones.
+131|14|Q.TPD1.15|Je propose une ou des situations d’évaluation en soutien à l’apprentissage asynchrone à la suite des activités réalisées lors des rencontres synchrones.

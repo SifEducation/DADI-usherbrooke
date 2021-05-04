@@ -1,0 +1,15 @@
+﻿id_question|id_sous_questionnaire|code|description|type
+1|1|Q.T1|Pour résoudre un problème technique attribuable à une défectuosité de mon équipement informatique (microphone, écouteurs, caméra web, etc.) …|Fréquence
+2|1|Q.T2|Lorsqu’un étudiant rencontre un problème technique avec son ordinateur personnel|Fréquence
+3|1|Q.T3|En vue d’assurer le bon déroulement technique de mon cours en ligne…|Fréquence
+4|2|Q.P1|Indiquez votre fréquence d’utilisation de ces méthodes pédagogiques.|Fréquence
+5|3|Q.ET1|Précisez la fréquence à laquelle vous mobilisez les technologies en soutien à l’apprentissage.|Fréquence
+6|4|Q.TD1|Précisez la manière dont vous illustrer des pratiques disciplinaires au moyen des technologies.|Fréquence
+7|5|Q.TP1|Précisez la fréquence à laquelle vous avez recours aux méthodes d’enseignement et d’apprentissage asynchrones suivantes pour dans le cadre de vos cours.|Fréquence
+8|5|Q.TP2|Précisez la fréquence à laquelle vous avez recours aux méthodes d’enseignement et d’apprentissage synchrones suivantes pour dans le cadre de vos cours.|Fréquence
+9|6|Q.PD1|Précisez la fréquence d’intégration d’exemples issus de la pratique à vos interventions pédagogiques.|QCM
+10|7|Q.EP1|Précisez la manière dont vous soutenez l’engagement affectif et cognitif des personnes étudiantes.|Fréquence
+11|8|Q.EPD1|Précisez la manière par laquelle vous identifiez les méthodes pédagogiques les mieux adaptées à l’enseignement de votre contenu disciplinaire.|Fréquence
+12|9|Q.ETP1|Précisez vos préférences technopédagogiques dans un contexte de formation à distance proposant des activités synchrones et asynchrone en indiquant votre niveau d’accord avec les énoncés suivants. Dans un contexte de formation à distance proposant des activités synchrones et asynchrones...|Accord
+13|10|Q.ETD1|Précisez à quelle fréquence vous faites certains choix d’outils technologiques typiques à votre champ disciplinaire au sein de vos cours.|Fréquence
+14|11|Q.TPD1|Capacité à articuler des activités de formation asynchrone et synchrone en vue d’atteindre les cibles de formation.|Fréquence

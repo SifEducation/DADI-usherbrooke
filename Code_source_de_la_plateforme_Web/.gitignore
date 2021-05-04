@@ -1,0 +1,12 @@
+# User-specific folder:
+Serveur/.idea/
+
+#Node modules
+node_modules/
+
+#indexing file for mac OS
+.DS_Store
+
+.idea
+
+/BD/donnees-initiales/Excel_format/~$*.xlsx

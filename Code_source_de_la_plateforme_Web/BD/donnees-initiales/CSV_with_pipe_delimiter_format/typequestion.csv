@@ -1,0 +1,13 @@
+type|choix_reponse|ordre
+Fréquence|toujours|1
+Fréquence|souvent|2
+Fréquence|parfois|3
+Fréquence|jamais|4
+Accord|très en accord|1
+Accord|en accord|2
+Accord|neutre|3
+Accord|en désaccord|4
+Accord|très en désaccord|5
+QCM|régulierement|1
+QCM|occasionnellement|2
+QCM|jamais|3

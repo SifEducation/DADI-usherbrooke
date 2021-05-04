@@ -1,0 +1,12 @@
+INSERT INTO daadi.typequestion (type, choix_reponse, ordre) VALUES ('Fréquence', 'toujours', 1);
+INSERT INTO daadi.typequestion (type, choix_reponse, ordre) VALUES ('Fréquence', 'souvent', 2);
+INSERT INTO daadi.typequestion (type, choix_reponse, ordre) VALUES ('Fréquence', 'parfois', 3);
+INSERT INTO daadi.typequestion (type, choix_reponse, ordre) VALUES ('Fréquence', 'jamais', 4);
+INSERT INTO daadi.typequestion (type, choix_reponse, ordre) VALUES ('Accord', 'très en accord', 1);
+INSERT INTO daadi.typequestion (type, choix_reponse, ordre) VALUES ('Accord', 'en accord', 2);
+INSERT INTO daadi.typequestion (type, choix_reponse, ordre) VALUES ('Accord', 'neutre', 3);
+INSERT INTO daadi.typequestion (type, choix_reponse, ordre) VALUES ('Accord', 'en désaccord', 4);
+INSERT INTO daadi.typequestion (type, choix_reponse, ordre) VALUES ('Accord', 'très en désaccord', 5);
+INSERT INTO daadi.typequestion (type, choix_reponse, ordre) VALUES ('QCM', 'régulierement', 1);
+INSERT INTO daadi.typequestion (type, choix_reponse, ordre) VALUES ('QCM', 'occasionnellement', 2);
+INSERT INTO daadi.typequestion (type, choix_reponse, ordre) VALUES ('QCM', 'jamais', 3);
