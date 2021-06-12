@@ -4,7 +4,7 @@ CONSTRAINT cd_type_format
     CHECK (
         VALUE SIMILAR TO '(Capsule stratégique|Démarche d''analyse|Aide-mémoire'
         '|Cas de figure / exemple|Canevas à remplir|Tutoriel|Articles scientifiques'
-        '|Articles professionels|Référence institutionnelle|Répertoire|Capsules vidéos'
+        '|Articles professionnels|Référence institutionnelle|Répertoire|Capsules vidéos'
         '|Infographie|À déterminer)'
     );
 
@@ -13,7 +13,7 @@ CREATE DOMAIN daadi.dtype_licence
 VARCHAR(50) NOT NULL
 CONSTRAINT cd_dtype_licence 
     CHECK (
-        VALUE SIMILAR TO '(CC0|CC-BY|CC-BY-SA|CC-BC-NC|CC-BY-NC-SA|'
+        VALUE SIMILAR TO '(CC0|CC-BY|CC-BY-SA|CC-BY-NC|CC-BY-NC-SA|'
         'CC-BY-ND|CC-BY-NC-ND|Tous droits réservés|Autre|À déterminer)'
     );
 
