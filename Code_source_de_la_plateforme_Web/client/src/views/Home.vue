@@ -20,7 +20,7 @@
 			<div class="col">
 				<img class="img-div" alt="Tete" src="@/assets/home/tete.png" />
 				<h3>Le Guide pédagogique numérique</h3>
-				<p>Pour consulter des dossiers thématiques de formation préparées sur mesure pour vous...</p>
+				<p>Pour consulter des dossiers thématiques de formation préparés sur mesure pour vous...</p>
 				<button class="custom-btn" v-on:click="toNumericGuide">consulter</button>
 			</div>
 		</div>

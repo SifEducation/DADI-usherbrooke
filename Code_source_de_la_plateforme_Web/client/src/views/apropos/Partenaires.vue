@@ -4,7 +4,7 @@
 		<div class="contenu">
 			<h1>Partenaires</h1>
 			<p>
-				La plateforme Web DADI a été rendue possible grâce au soutien financier de Ministère de l’Éducation
+				La plateforme Web DADI a été rendue possible grâce au soutien financier du Ministère de l’Éducation
 				et de l’Enseignement supérieur dans le cadre du projet <a class="text-mauve" @click="toRessourceLink()">LaFabriqueREL</a>, du Fonds d’innovation pédagogique
 				de l’Université de Sherbrooke ainsi que de la contribution de la Faculté d’éducation de l’Université de
 				Sherbrooke.<br/><br/>

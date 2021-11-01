@@ -17,7 +17,7 @@
 							<div class="col" >
 								<img class="img-div" alt="lumiere" src="@/assets/demarche/lumiere.png" />
 								<h3>Posture métacognitive innovante</h3>
-								<p class="text-block-fondements">Démache introspective visant l’innovation contextualisée dans la pratique</p>
+								<p class="text-block-fondements">Démarche introspective visant l’innovation contextualisée dans la pratique</p>
 							</div>
 							<div class="col" >
 								<img class="img-div" alt="ordi" src="@/assets/demarche/ordi.png" />
@@ -125,7 +125,7 @@
 									<th class="ligne col-num" scope="row"><img class="img-no" alt="No" src="@/assets/demarche/forme.png" /><span class="num">4</span></th>
 									<td class="ligne col-livrable">MODÈLE THÉORIQUE DE L’OUTIL D’AUTOÉVALUATION</td>
 									<td class="ligne col-description">
-										<strong class="strong-mauve">1)</strong> Identification et choix des modèles théoriques recensés qui pourraient être pertinents au regard de l’intention pédagogique derrière le dispositif DIT, qui est de représenter graphiquement les affinités entre certaines pratiques pédagogiques et certains contextes d’enseignement intégrant les technologiques à des niveaux variables. <br/><br/>
+										<strong class="strong-mauve">1)</strong> Identification et choix des modèles théoriques recensés qui pourraient être pertinents au regard de l’intention pédagogique derrière le dispositif DIT, qui est de représenter graphiquement les affinités entre certaines pratiques pédagogiques et certains contextes d’enseignement intégrant les technologies à des niveaux variables. <br/><br/>
 										<strong class="strong-mauve">2)</strong> Caractérisation des liens entre les composantes et sous-composantes des modèles. <br/><br/>
 										<strong class="strong-mauve">3)</strong> Regroupement des composantes et sous-composantes du modèle théorique retenu, basé sur un certain nombre de critères identifiés et jugés pertinents au regard de l’intention pédagogique derrière l’outil d’autoévaluation interactif.  <br/><br/>
 										<strong class="strong-mauve">4)</strong> Production de l’ébauche du modèle théorique propre au dispositif DIT.  <br/><br/>
@@ -147,7 +147,7 @@
 									<th class="ligne col-num" scope="row"><img class="img-no" alt="No" src="@/assets/demarche/forme.png" /><span class="num">6</span></th>
 									<td class="ligne col-livrable">DÉVELOPPEMENT DU CONTENU DU DISPOSITIF </td>
 									<td class="ligne col-description">
-										<strong class="strong-mauve">1)</strong> Élaboration des balises de conception permettant de rendre le dispositif ou certaines parties, libre. <br/><br/>
+										<strong class="strong-mauve">1)</strong> Élaboration des balises de conception permettant de rendre le dispositif ou certaines parties, libres. <br/><br/>
 										<strong class="strong-mauve">2)</strong> Production des questionnaires interactifs proposés au sein du dispositif (court questionnaire lancé automatiquement sur la page d’accueil du dispositif&nbsp;; questionnaire long à embranchements multiples associé au modèle théorique).<br/><br/>
 										<strong class="strong-mauve">3)</strong> Description du mécanisme algorithmique de recueil, d’analyse et de mise en forme graphique des réponses données aux questionnaires.  <br/><br/>
 										<strong class="strong-mauve">4)</strong> Production des ressources exclusives et production de ressources permettant de transiter vers des ressources existantes recensées au regard de filtres correspondant aux besoins identifiés par les formateurs. <br/>
@@ -241,7 +241,7 @@
 				<div class="card">
 					<div class="card-header" id="headingFour">
 						<button class="btn-collapse collapsed btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-							À quels besoins le DADI répond-t-til?
+							À quels besoins le DADI répond-t-il?
 						</button>
 					</div>
 					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionCadre">
