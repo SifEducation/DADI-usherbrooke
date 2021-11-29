@@ -73,7 +73,7 @@
 			getQuestionnaireSelected(e_event, s_idQuestionnaire) {
 				if (this.$parent.getQuestionnaireSelected !== undefined && !this.isDimensionCompleted(s_idQuestionnaire)) {
 					const a_dimensionsComp = document.getElementsByClassName("rond");
-					a_dimensionsComp.forEach((comp) => {
+					Array.prototype.forEach.call(a_dimensionsComp, comp => {
 						comp.classList.remove("current");
 					});
 					e_event.currentTarget.classList.add("current");
