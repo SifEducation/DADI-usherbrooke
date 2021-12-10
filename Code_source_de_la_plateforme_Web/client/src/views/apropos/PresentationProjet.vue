@@ -11,7 +11,7 @@
 					<ul>
 						<li>L’authenticité</li>
 						<li>La collaboration</li>
-						<li>La pédagogie centrée sur l’apprenant.e</li>
+						<li>La pédagogie centrée sur la personne apprenante</li>
 						<li>L’évaluation en soutien à l’apprentissage</li>
 					</ul>
 				</div>
@@ -50,7 +50,7 @@
 						<ol class="ol-number">
 							<li class="li-text-long">Mode d’enseignement : Les personnes formatrices disent ne pas être en mesure de faire l’évaluation des
 								couts et des bénéfices associés aux deux modalités d’enseignement et d’évaluation selon leur contexte d’enseignement.
-								Ils ne connaissent pas tous les types d’activité ni l’éventail des outils technologiques synchrones et asynchrones.
+								Ils ne connaissent pas tous les types d’activités ni l’éventail des outils technologiques synchrones et asynchrones.
 								Ils souhaiteraient donc être en mesure d’identifier quand il est pertinent de proposer des activités pédagogiques"
 								synchrones plutôt qu’asynchrones ou inversement.</li>
 							<li class="li-text-long">Jauge des activités individuelles et collaboratives : Les personnes formatrices ne semblent pas remettre en question
@@ -61,35 +61,35 @@
 							<li class="li-text-long">Alignement technopédagogique : Les personnes formatrices ne semblent pas systématiquement valider l’alignement technopédagogique
 								de leur cours en ligne. Il semblerait que les composantes de l’alignement technopédagogique ne soient pas connues par l’ensemble des
 								personnes formatrices. Il leur serait pertinent d’être en mesure d’identifier l’utilité et les composantes, mais aussi de savoir comment
-								elles s’articulent. Le moment et la manière de valider l’alignement technopédagogique de son cours représentent également des besoins identifiés.</li>
+								elles s’articulent. Le moment et la manière de valider l’alignement technopédagogique de leur cours représentent également des besoins identifiés.</li>
 							<li class="li-text-long">Présence à distance : L’établissement d’un climat sociorelationnel d’ouverture demeure un défi pour plusieurs personnes formatrices qui
-								se sentent isolées derrière leur écran. Les personnes formatrices ont le désir de réduire à la fois le sentiment d’isolement qu’ils éprouvent
-								et celui de leurs étudiantes et étudiants, pour leur offrir des activités d’apprentissage engageantes à la fois sur le plan relationnel et cognitif.
-								Ils souhaiteraient ainsi être en mesure de savoir quelles stratégies d’enseignement utiliser pour créer un sentiment de présence à distance, établir
+								se sentent isolées derrière leur écran. Les personnes formatrices ont le désir de réduire à la fois le sentiment d’isolement qu’elles éprouvent
+								et celui de leurs personnes étudiantes, pour leur offrir des activités d’apprentissage engageantes à la fois sur le plan relationnel et cognitif.
+								Elles souhaiteraient ainsi être en mesure de savoir quelles stratégies d’enseignement utiliser pour créer un sentiment de présence à distance, établir
 								une relation de confiance avec les personnes étudiantes et instaurer une cohésion de groupe donnant libre cours à une communication ouverte et transparente.</li>
 							<li class="li-text-long">Engagement et motivation : L’engagement et la motivation en FAD sont relevés comme des défis dans certains cas, autant pour les personnes formatrices
 								que pour les personnes étudiantes. Les recherches offrent plusieurs pistes pour favoriser la motivation, mais celles-ci ne sont pas nécessairement bien
-								connues, considérées ou appliquées par les personnes formatrices. Ceux-ci ont donc besoin de savoir comment concrètement favoriser la motivation des
-								personnes étudiantes dans un cours en ligne, et comment sonder celle-ci. Du point de vue du formateur, le mauvais calcul des couts et des bénéfices associés
-								au développement d’activités d’apprentissage peut miner la motivation des personnes formatrices qui y investissent considérablement de temps. L’appropriation
+								connues, considérées ou appliquées par les personnes formatrices. Celles-ci ont donc besoin de savoir comment concrètement favoriser la motivation des
+								personnes étudiantes dans un cours en ligne, et comment sonder celle-ci. Du point de vue de la personne formatrice, le mauvais calcul des couts et des bénéfices associés
+								au développement d’activités d’apprentissage peut miner la motivation, considérant le temps investi. L’appropriation
 								de stratégies d’économie de temps et d’énergie pour enseigner en FAD ou en contexte de formation hybride demeure un besoin partagé par plusieurs personnes formatrices.</li>
 							<li class="li-text-long">Manipulation des outils technologiques : La capacité des personnes formatrices à maintenir le rythme d’appropriation et d’exploration des nouveaux
-								outils innovants, pertinents, fiables et à leur portée ne correspond pas au temps dont ils disposent pour se prêter à la tâche. Les personnes formatrices
-								réclament des outils fiables, conviviaux, mais également innovants. Ils souhaiteraient être en mesure de savoir comment s’approprier rapidement un nouvel
+								outils innovants, pertinents, fiables et à leur portée ne correspond pas au temps dont elles disposent pour se prêter à la tâche. Les personnes formatrices
+								réclament des outils fiables, conviviaux, mais également innovants. Elles souhaiteraient être en mesure de savoir comment s’approprier rapidement un nouvel
 								outil TIC, et comment choisir judicieusement les outils technologiques à investir sans y perdre du temps.</li>
 							<li class="li-text-long">Évaluation des apprentissages (et des compétences) : La formation à distance soulève en effet, pour les évaluations, des enjeux éthiques spécifiques
-								(ex. évaluation dans les mêmes conditions pour tous, authentification de l’identité de l’étudiant, risque de plagiat, sécurité et fiabilité des outils TIC, etc.).
+								(ex. évaluation dans les mêmes conditions pour tous, authentification de l’identité de la personne étudiante, risque de plagiat, sécurité et fiabilité des outils TIC, etc.).
 								Les personnes formatrices ne semblent pas connaitre l’étendue des possibilités et les points de vigilance liés à l’évaluation des apprentissages à l’aide
-								des technologies. Ils souhaiteraient donc savoir quelles sont les méthodes permettant d’évaluer la progression des apprentissages à distance, et plus encore
+								des technologies. Elles souhaiteraient donc savoir quelles sont les méthodes permettant d’évaluer la progression des apprentissages à distance, et plus encore
 								comment évaluer les compétences à l’aide des technologies.</li>
 							<li class="li-text-long">Stratégies pédagogiques actives : Les personnes formatrices ne semblent pas avoir une grande facilité à mettre en action les personnes étudiantes à distance
-								à l’aide des technologies. Certains se campent dans des postures pédagogiques frontales misant sur le dépôt et la consultation de documents en espérant que les
+								à l’aide des technologies. Certaines se campent dans des postures pédagogiques frontales misant sur le dépôt et la consultation de documents en espérant que les
 								personnes étudiantes pourront circonscrire l’information importante à retenir et faire les transferts d’apprentissage nécessaires à l’atteinte des cibles
 								d’apprentissage de manière autonome. D’autres perçoivent la valeur de la pédagogie active et souhaiteraient la mettre en œuvre, mais ne savent pas comment
 								l’appliquer à leur contexte d’enseignement en ligne. Le pilotage de ce type de situations d’apprentissage à distance demeure parfois flou pour certaines personnes
 								formatrices qui considèrent ne pas toujours savoir comment bien jouer leur rôle de guide-accompagnateur. Ils souhaiteraient être en mesure de connaitre la valeur
-								ajoutée des activités les unes par rapport aux autres, mais aussi de savoir comment agir à distance dans leur rôle de facilitateur des apprentissages de leurs
-								étudiantes et étudiants. Ils souhaiteraient donc savoir comment planifier, concevoir et piloter des scénarios pédagogiques qui les mettent en action en formation
+								ajoutée des activités les unes par rapport aux autres, mais aussi de savoir comment agir à distance dans leur rôle de personne facilitatrice des apprentissages des
+								personnes étudiantes. Elles souhaiteraient donc savoir comment planifier, concevoir et piloter des scénarios pédagogiques qui les mettent en action en formation
 								à distance, qui requièrent l’interaction et la collaboration entre les membres d’une même communauté d’apprentissage.</li>
 						</ol>
 					</div>
@@ -153,14 +153,14 @@
 								d’autopositionnement du DADI. Toutefois, nous souhaitons l’adapter de deux manières :</h2>
 							<p><strong>1)</strong> En ajoutant un niveau de questionnement permettant de mettre en lumière les 4 sousrelations
 								derrière chaque	trinôme de dimensions (indiqué sur le schéma ci-dessous par une étoile jaune)<br/><br/>
-								<strong>2)</strong> préciser certaines des questions afin de nous assurer de la plus grande compatibilité
+								<strong>2)</strong> En précisant certaines des questions afin de nous assurer de la plus grande compatibilité
 								possible entre nos questions et les milieux auxquels nous nous adressons.</p>
 							<img class="img-modele" alt="Modele" src="@/assets/cadre/modele.png"/>
-							<p>Bref, le modèle de Bachy (2014) nous permettra de proposer un autopositionnement précis aux utilisateurs de la
+							<p>Bref, le modèle de Bachy (2014) nous permettra de proposer un autopositionnement précis aux personnes utilisatrices de la
 								plateforme, qui mettra en lumière à l’aide d’indicateurs opérationnels de ces différentes dimensions, ce sur quoi
-								ils peuvent travailler pour devenir plus à l’aise et compétents dans leur rôle de formateur à distance ou en
+								elles peuvent travailler pour devenir plus à l’aise et compétentes dans leur rôle de personne formatrice à distance ou en
 								formation hybride. À partir du résultat de l’autopositionnement, des pistes de développement professionnel adaptées
-								seront proposées aux utilisateurs qui seront invités à les mettre en oeuvre dans leurs cours. Nous souhaitons leur
+								seront proposées aux personnes utilisatrices qui seront invitées à les mettre en oeuvre dans leurs cours. Nous souhaitons leur
 								donner accès à des ressources qui les soutiendront dans le développement de leur savoir technopédagogique disciplinaire,
 								plus largement de leurs compétences technopédagogiques.</p>
 							<button class="custom-btn btn-article" v-on:click="toModeleBachy">Consulter le modèle de Bachy (2014)</button>

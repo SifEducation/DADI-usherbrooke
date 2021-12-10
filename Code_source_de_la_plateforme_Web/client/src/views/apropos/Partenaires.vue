@@ -8,8 +8,8 @@
 				et de l’Enseignement supérieur dans le cadre du projet <a class="text-mauve" @click="toRessourceLink()">LaFabriqueREL</a>, du Fonds d’innovation pédagogique
 				de l’Université de Sherbrooke ainsi que de la contribution de la Faculté d’éducation de l’Université de
 				Sherbrooke.<br/><br/>
-				Soulignons également la contribution toute spéciale au projet du vice-recteur adjoint aux études de
-				l’Université de Sherbrooke, Monsieur Serge Allary ainsi que Marianne Dubé, conseillère pédagogique
+				Soulignons la contribution toute spéciale du vice-recteur adjoint aux études de
+				l’Université de Sherbrooke, Monsieur Serge Allary, et de Madame Marianne Dubé, conseillère pédagogique
 				au Service de Soutien à la formation dédiée au projet LaFabriqueREL. <br/><br/>
 				Nous remercions chaleureusement toutes et tous nos partenaires d’avoir cru en notre projet
 				et d’avoir contribué à l’amélioration de la qualité de la formation à distance par l’entremise
@@ -30,9 +30,8 @@
 				</div>
 			</div>
 			<div>
-				<p class="section-bas">Soulignons également la participation au développement du dispositif de notre équipe de programmeurs
-					finissants du baccalauréat en informatique de la Faculté des sciences de l’Université de Sherbrooke sans
-					qui le DADI n’aurait jamais pu voir le jour.</p>
+				<p class="section-bas">Enfin, merci à notre équipe de personnes programmeuses finissantes du baccalauréat en informatique de la Faculté des sciences de 
+					                   l'Université de Sherbrooke pour leur participation au développement du dispositif; sans elles, le DADI n'aurait jamais pu voir le jour.</p>
 			</div>
 		</div>
 	</div>

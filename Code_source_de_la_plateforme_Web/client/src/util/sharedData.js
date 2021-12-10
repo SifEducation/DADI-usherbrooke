@@ -370,9 +370,9 @@ module.exports = {
 	 * Donnee pour les textes d'introcutions des dossiers dans les pages Guide pedagorique et les dossiers specifiques.
 	 */
 	introDossiers : [
-		"Si vous souhaitez comprendre la mécanique derrière le paramétrage et l’installation de votre équipe et de vos logiciels ET développer des réflexes pour diagnostiquer des problèmes techniques pour éventuellement soutenir les étudiants dans la résolution ceux-ci, ce dossier thématique répondra à vos besoins!",
+		"Si vous souhaitez comprendre la mécanique derrière le paramétrage et l’installation de votre équipement et de vos logiciels ET développer des réflexes pour diagnostiquer des problèmes techniques pour éventuellement soutenir les étudiants dans la résolution de ceux-ci, ce dossier thématique répondra à vos besoins!",
 		"Pour choisir des méthodes pédagogiques adaptées à votre contexte de formation intégrant les TIC ainsi qu’à vos intentions pédagogiques, ce dossier thématique est celui qu’il vous faut explorer! ",
-		"Pour obtenir quelques conseils pour faciliter une structuration efficace de l’environnement numérique d’apprentissage, consulter ce dossier!",
+		"Pour obtenir quelques conseils pour faciliter une structuration efficace de l’environnement numérique d’apprentissage, consultez ce dossier!",
 		"Si vous souhaitez revisiter les différentes étapes du processus d’évaluation et obtenir des conseils pratiques sur la manière d’intégrer le numérique à vos évaluations dans le but de soutenir l’apprentissage, nous vous invitons à parcourir ce dossier thématique! ",
 		"Si vous souhaitez explorer des stratégies pédagogiques pour favoriser la motivation et l’engagement en formation à distance, ce dossier vous sera d’une grande utilité! ",
 		"Si vous souhaitez connaître des stratégies d’intervention pédagogique proactives et rétroactives pour faciliter la régulation de votre enseignement en contexte de formation à distance, ce dossier est tout désigné pour vous!"

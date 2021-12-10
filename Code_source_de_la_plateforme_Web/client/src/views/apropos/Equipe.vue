@@ -159,7 +159,7 @@
 						</div>
 						<div class="col-4">
 							<h4>Véronique Gagnon, B.Sc. informatique de gestion</h4>
-							<h5>Programmeur Front-End et sécurité informatique</h5>
+							<h5>Programmeuse Front-End et sécurité informatique</h5>
 						</div>
 					</div>
 				</div>
