@@ -64,7 +64,8 @@ function getResources(o_filter) {
         if(value !== null) {
             const s_condition = _getSQLConditionString(key, value, i_valueCounter);
             i_valueCounter += value.length;
-            a_queryValues = a_queryValues.concat(value.map(s_value => s_value.toLowerCase()));
+            a_queryValues = a_queryValues.concat(value.map(s_value => s_value));
+			
             return s_condition;
         }
         return "";

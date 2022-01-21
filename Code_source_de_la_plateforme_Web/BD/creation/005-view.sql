@@ -20,7 +20,7 @@ WITH themes AS (
      ),
      etiquettes AS (
          SELECT DISTINCT etiquette.id_ressource,
-                         ARRAY_AGG(LOWER(etiquette.nom collate "fr_ca"))::VARCHAR[] AS noms
+                         ARRAY_AGG(etiquette.nom)::VARCHAR[] AS noms
          FROM daadi.etiquetteressource etiquette
          GROUP BY (etiquette.id_ressource)
      ),
