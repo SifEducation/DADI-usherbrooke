@@ -34,7 +34,7 @@
 		 * Fonction qui, a la creation, recupere la liste des etiquettes possibles du serveur
 		 */
 		created() {
-			Request.getKeywords()
+			Request.getActiveKeywords()
 			.then((a_keywords) => {
 				this.allTags = a_keywords;
 			})

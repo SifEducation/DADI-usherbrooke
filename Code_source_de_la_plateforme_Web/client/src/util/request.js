@@ -277,11 +277,21 @@ function getKeywords() {
 	return _handleRequest(_getData.bind(this, "ressource/tags"));
 }
 
+/**
+ * Fonction qui recupere uniquement les etiquettes associé à une ressource pour toutes les ressources
+ * @returns {Promise<*>} La liste des etiquettes
+ */
+// eslint-disable-next-line no-unused-vars
+function getActiveKeywords() {
+	return _handleRequest(_getData.bind(this, "ressource/activTags"));
+}
+
 module.exports = {
 	getRessources: getRessources,
 	getRessourceDetails: getRessource,
 	getQuestionnaires: getQuestionnaires,
 	getQuestions: getQuestions,
 	sendAnswers: sendAnswers,
-	getKeywords: getKeywords
+	getKeywords: getKeywords,
+	getActiveKeywords: getActiveKeywords
 }

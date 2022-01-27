@@ -304,11 +304,11 @@ function getSubQuestionnaireFeedback(o_answerToSubQuestionnaire) {
                         if(!a_allResourceIds.includes(o_res.i_id))
                             a_allResources.push(o_res);
                     })
-
+					//Limitation temporaire par slice, sera remplacé pour fix permanent
                     return new Feedback(
-                        a_allMessages,
-                        a_allObjectives,
-                        a_allResources
+                        a_allMessages.slice(0,3),
+                        a_allObjectives.slice(0,3),
+                        a_allResources.slice(0,3)
                     );
                 }
             )
@@ -367,6 +367,19 @@ function getTags() {
         });
 }
 
+/**
+ * Recuperation des etiquettes associées à des ressources  dans la base de donnees
+ *
+ * @return { Promise<String[]> } Liste des etiquettes associées à une ressource possibles
+ */
+function getActivTags() {
+    return resourceQueries.getActivTags()
+        .then(a_tags => a_tags)
+        .catch(s_error => {
+            throw s_error;
+        });
+}
+
 module.exports = {
     connect: connect,
     disconnect: disconnect,
@@ -375,6 +388,7 @@ module.exports = {
     getSubQuestionnaireFeedback: getSubQuestionnaireFeedback,
     getResources: getResources,
     getResource: getResource,
-    getTags: getTags
+    getTags: getTags,
+	getActivTags: getActivTags
 };
 

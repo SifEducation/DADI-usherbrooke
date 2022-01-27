@@ -68,6 +68,17 @@ router.get('/tags', function(req, res, next){
         .catch(next);
 });
 
+/**
+ * Requete de recuperation des etiquettes associé à des ressources
+ *
+ * 
+ */
+router.get('/activTags', function(req, res, next){
+    dbAPI.getActivTags()
+        .then(a_tags => res.send(a_tags))
+        .catch(next);
+});
+
 // TODO LOGIN
 /**
  * Requete de sauvegarde des ressources au profil d'un utilisateur.
