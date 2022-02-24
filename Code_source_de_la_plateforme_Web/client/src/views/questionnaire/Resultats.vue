@@ -14,8 +14,11 @@
 						</div>
 						<ul>
 							<!-- Affiche la liste des messages de retroaction dynamiquement -->
-							<li v-for="message in feedback.a_messages" :key="message">...<span v-html="message"></span></li>
+							<li v-for="message in computedMess" :key="message">...<span v-html="message"></span></li>
 						</ul>
+						<button v-if="messLimit != null && feedback.a_messages.length > 3" class="btn-collapsed btn btn-block text-left" type="button" @click="messLimit = null">
+							Afficher tout
+						</button>
 					</div>
 					<div class="feedbackRessoures">
 						<div class="titreRessources">
@@ -23,21 +26,27 @@
 						</div>
 						<ul>
 							<!-- Affiche la liste des objectifs de retroaction dynamiquement -->
-							<li v-for="objectif in feedback.a_objectives" :key="objectif">...{{objectif}}</li>
-						</ul>
+							<li v-for="objectif in computedObjtv" :key="objectif">...{{objectif}}</li>
+						</ul>						
+						<button v-if="objtvLimit != null && feedback.a_objectives.length > 3" class="btn-collapsed btn btn-block text-left" type="button" @click="objtvLimit = null">
+							Afficher tout
+						</button>
 					</div>
 					<div class="row">
 						<div class="col res-container">
 							<!-- Affiche dynamiquement la liste des ressources suggerees en un lien menant a la fiche de la ressource -->
-							<div class="row ressource" v-for="ressource in feedback.a_ressources"  v-bind:key="ressource.i_id">
+							<div class="row ressource" v-for="ressource in computedRess"  v-bind:key="ressource.i_id">
 								<div class="col typeRessource">
 									{{ressource.s_format}}
 								</div>
 								<div class="col linkRessource">
 									<router-link class="res-link" v-bind:to="'/banqueressource/'+ressource.i_id">{{ressource.s_name}}</router-link>
 								</div>
-							</div>
+							</div>							
 						</div>
+						<button v-if="ressLimit != null && feedback.a_ressources.length > 3" class="btn-collapsed res-container btn btn-block text-left" type="button" @click="ressLimit = null">
+							Afficher tout
+						</button>						
 					</div>
 					<div class="btn-Pdf d-flex justify-content-center">
 						<button class="custom-btn" v-on:click="toPdf">Télécharger la rétroaction</button>
@@ -126,7 +135,21 @@
 				b_allLevelCompleted: getLevelsCompletion(),
 				resultats,
 				titleBoussole,
-				imagesNiveaux: [niveau1, niveau2, niveau3]
+				imagesNiveaux: [niveau1, niveau2, niveau3],
+				messLimit: 3, //Nombre limite de message à afficher
+				objtvLimit: 3, //Nombre limite d'objectif à afficher
+				ressLimit: 3 //Nombre limite de ressource à afficher
+			}
+		},
+		computed:{
+			computedMess(){
+				return this.messLimit ? this.feedback.a_messages.slice(0,this.messLimit) : this.feedback.a_messages
+			},
+			computedObjtv(){
+				return this.objtvLimit ? this.feedback.a_objectives.slice(0,this.objtvLimit) : this.feedback.a_objectives
+			},
+			computedRess(){
+				return this.ressLimit ? this.feedback.a_ressources.slice(0,this.ressLimit) : this.feedback.a_ressources
 			}
 		},
 		/**
@@ -317,5 +340,15 @@
 		width: 50%;
 		padding-right: 15px;
 		padding-left: 15px;
+	}
+	
+	.btn-collapsed{
+		box-shadow: none;
+		padding-left: 0;
+		padding-right: 0;
+		font-size: 14pt;
+		font-weight: bold;
+		color: #222277;
+		background:  url("../../assets/cadre/+.png") right no-repeat;
 	}
 </style>

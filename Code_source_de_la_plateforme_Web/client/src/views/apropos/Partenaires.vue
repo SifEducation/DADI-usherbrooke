@@ -30,8 +30,10 @@
 				</div>
 			</div>
 			<div>
-				<p class="section-bas">Enfin, merci à notre équipe de personnes programmeuses finissantes du baccalauréat en informatique de la Faculté des sciences de 
-					                   l'Université de Sherbrooke pour leur participation au développement du dispositif; sans elles, le DADI n'aurait jamais pu voir le jour.</p>
+				<p class="section-bas">
+					Enfin, merci à notre équipe de personnes programmeuses finissantes du baccalauréat en informatique de la Faculté des sciences de 
+					l'Université de Sherbrooke pour leur participation au développement du dispositif; sans elles, le DADI n'aurait jamais pu voir le jour.
+				</p>
 			</div>
 		</div>
 	</div>

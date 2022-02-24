@@ -148,7 +148,7 @@
 			 * @param {String} path Chemin du lien a naviguer
 			 */
 			toRessourceLink(path) {
-				window.open(path);
+				window.open('https://docs.google.com/viewer?url=' + path + '?raw=true', '_blank');
 			},
 			/**
 			 * Redirige vers la fiche de la ressource selectionnee
