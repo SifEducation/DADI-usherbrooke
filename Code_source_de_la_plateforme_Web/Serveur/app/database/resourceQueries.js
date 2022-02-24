@@ -48,19 +48,19 @@ function _getSQLConditionString(s_filter, a_values, i_counter){
 }
 
 /**
- * Fonction retournant la condition de retrait des ressources inachevées avec des champs "À déterminer" (TBD === to be determined)
+ * Fonction retournant la condition de retrait des ressources inachevÃ©es avec des champs "Ã€ dÃ©terminer" (TBD === to be determined)
  *
  * @return {string} Texte de la condition WHERE SQL a ajouter a la requete
  */
  function _getSQLConditionRemoveTBD(){
-		return ["code NOT LIKE 'À déterminer'",
-				"titre NOT LIKE 'À déterminer'",
-				"sous_titre NOT LIKE 'À déterminer'",
-				"format  NOT LIKE 'À déterminer'",
-				"chemin  NOT LIKE 'À déterminer'",
-				"description NOT LIKE 'À déterminer'",
-				"type_licence NOT LIKE 'À déterminer'",
-				"type_licence NOT LIKE 'À déterminer'"];
+		return ["code NOT LIKE 'Ã€ dÃ©terminer'",
+				"titre NOT LIKE 'Ã€ dÃ©terminer'",
+				"sous_titre NOT LIKE 'Ã€ dÃ©terminer'",
+				"format  NOT LIKE 'Ã€ dÃ©terminer'",
+				"chemin  NOT LIKE 'Ã€ dÃ©terminer'",
+				"description NOT LIKE 'Ã€ dÃ©terminer'",
+				"type_licence NOT LIKE 'Ã€ dÃ©terminer'",
+				"type_licence NOT LIKE 'Ã€ dÃ©terminer'"];
  }
 
 /**
@@ -87,7 +87,7 @@ function getResources(o_filter) {
         return "";
     }).filter(value => value !== "");
 
-	//Ajout de la condition pour retirer les ressources "À détermier"
+	//Ajout de la condition pour retirer les ressources "Ã€ dÃ©termier"
 	sqlConditions = sqlConditions.concat(_getSQLConditionRemoveTBD());
 
     if(o_filter.folder !== null)
@@ -128,7 +128,7 @@ function getResource(i_idResource) {
  * @return { Promise<String[]> } Representation JSON de la liste des etiquettes
  */
 function getTags() {
-    const s_text = 'SELECT * FROM daadi.Etiquette WHERE nom NOT LIKE \'À déterminer\'';
+    const s_text = 'SELECT * FROM daadi.Etiquette WHERE nom NOT LIKE \'Ã€ dÃ©terminer\'';
 
     return pool.query(s_text, [])
         .then(o_res => o_res.rows.map(o_tag => o_tag.nom))
@@ -144,7 +144,7 @@ function getTags() {
  * @return { Promise<String[]> } Representation JSON de la liste des etiquettes
  */
 function getActivTags() {
-    const s_text = 'SELECT * FROM daadi.Etiquette WHERE nom NOT LIKE \'À déterminer\' AND nom IN (SELECT nom FROM daadi.etiquetteressource)';
+    const s_text = 'SELECT * FROM daadi.Etiquette WHERE nom NOT LIKE \'Ã€ dÃ©terminer\' AND nom IN (SELECT nom FROM daadi.etiquetteressource)';
 
     return pool.query(s_text, [])
         .then(o_res => o_res.rows.map(o_tag => o_tag.nom))

@@ -304,11 +304,11 @@ function getSubQuestionnaireFeedback(o_answerToSubQuestionnaire) {
                         if(!a_allResourceIds.includes(o_res.i_id))
                             a_allResources.push(o_res);
                     })
-					//Limitation temporaire par slice, sera remplacé pour fix permanent
+					
                     return new Feedback(
-                        a_allMessages.slice(0,3),
-                        a_allObjectives.slice(0,3),
-                        a_allResources.slice(0,3)
+                        a_allMessages,
+                        a_allObjectives,
+                        a_allResources
                     );
                 }
             )
