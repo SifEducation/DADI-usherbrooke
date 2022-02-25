@@ -16,8 +16,8 @@
 							<!-- Affiche la liste des messages de retroaction dynamiquement -->
 							<li v-for="message in computedMess" :key="message">...<span v-html="message"></span></li>
 						</ul>
-						<button v-if="messLimit != null && feedback.a_messages.length > 3" class="btn-collapsed btn btn-block text-left" type="button" @click="messLimit = null">
-							Afficher tout
+						<button v-if="feedback.a_messages.length > 3" class="btn-collapse btn btn-block text-left" v-bind:class="{'collapsed': messLimit === displayLimit}" type="button" @click="messLimit ? messLimit = null : messLimit = displayLimit">
+							{{ messLimit ? 'Afficher tout' : 'Afficher moins' }}
 						</button>
 					</div>
 					<div class="feedbackRessoures">
@@ -28,8 +28,8 @@
 							<!-- Affiche la liste des objectifs de retroaction dynamiquement -->
 							<li v-for="objectif in computedObjtv" :key="objectif">...{{objectif}}</li>
 						</ul>						
-						<button v-if="objtvLimit != null && feedback.a_objectives.length > 3" class="btn-collapsed btn btn-block text-left" type="button" @click="objtvLimit = null">
-							Afficher tout
+						<button v-if="feedback.a_objectives.length > 3" class="btn-collapse btn btn-block text-left" v-bind:class="{'collapsed': objtvLimit === displayLimit}" type="button" @click="objtvLimit ? objtvLimit = null : objtvLimit = displayLimit">
+							{{ objtvLimit ? 'Afficher tout' : 'Afficher moins' }}
 						</button>
 					</div>
 					<div class="row">
@@ -44,8 +44,8 @@
 								</div>
 							</div>							
 						</div>
-						<button v-if="ressLimit != null && feedback.a_ressources.length > 3" class="btn-collapsed res-container btn btn-block text-left" type="button" @click="ressLimit = null">
-							Afficher tout
+						<button v-if="feedback.a_ressources.length > 3" class="btn-collapse res-container btn btn-block text-left" v-bind:class="{'collapsed': ressLimit === displayLimit}" type="button" @click="ressLimit ? ressLimit = null : ressLimit = displayLimit">
+							{{ ressLimit ? 'Afficher tout' : 'Afficher moins' }}
 						</button>						
 					</div>
 					<div class="btn-Pdf d-flex justify-content-center">
@@ -136,6 +136,7 @@
 				resultats,
 				titleBoussole,
 				imagesNiveaux: [niveau1, niveau2, niveau3],
+				displayLimit: 3,
 				messLimit: 3, //Nombre limite de message à afficher
 				objtvLimit: 3, //Nombre limite d'objectif à afficher
 				ressLimit: 3 //Nombre limite de ressource à afficher
@@ -342,13 +343,16 @@
 		padding-left: 15px;
 	}
 	
-	.btn-collapsed{
+.btn-collapse{
 		box-shadow: none;
 		padding-left: 0;
 		padding-right: 0;
 		font-size: 14pt;
 		font-weight: bold;
 		color: #222277;
+		background:  url("../../assets/cadre/-.png") right no-repeat;
+	}
+	.btn-collapse.collapsed{
 		background:  url("../../assets/cadre/+.png") right no-repeat;
 	}
 </style>
