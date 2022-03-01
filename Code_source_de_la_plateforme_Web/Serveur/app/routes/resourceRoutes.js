@@ -69,7 +69,7 @@ router.get('/tags', function(req, res, next){
 });
 
 /**
- * Requete de recuperation des etiquettes associé à des ressources
+ * Requete de recuperation des etiquettes associÃ© Ã  des ressources
  *
  * 
  */
