@@ -5,7 +5,7 @@
 			<img class="img-text" alt="Logo DADI" src="@/assets/home/AccueilTitre.png" />
 		</div>
 		<div class="row">
-			<div class="col">
+			<div class="col"  style="display: none">
 				<img class="img-div" alt="boussole" src="@/assets/home/boussole.png" />
 				<h3>La boussole</h3>
 				<p>Pour vous porter un regard réflexif sur différentes dimensions de votre savoir technopédagogique disciplinaire et obtenir des pistes pour innover dans votre situation personnelle</p>
@@ -116,6 +116,7 @@
 		height: 47px;
 		position: absolute;
 		bottom: 47px;
-		left: 70px;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 </style>

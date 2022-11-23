@@ -14,7 +14,7 @@
 						<router-link to="/apropos/CodeSource">Code source</router-link>
 					</div>
 				</div>
-				<router-link :class="setActiveRoute('/diagnostic')" to="/diagnostic">autoévaluation</router-link>
+				<!--<router-link :class="setActiveRoute('/diagnostic')" to="/diagnostic">autoévaluation</router-link>-->
 				<router-link :class="setActiveRoute('/banqueressource')" to="/banqueressource">ressources</router-link>
 				<router-link class="dropbtn" :class="setActiveRoute('/guide')" to="/guide">guide</router-link>
 				<router-link :class="setActiveRoute('/contact')" to="/contact">contact</router-link>
