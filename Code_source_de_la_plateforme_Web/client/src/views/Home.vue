@@ -34,9 +34,9 @@
 			/**
 			 * Navigation vers la page d'accueil de l'outil d'evaluation (les questionnaires)
 			 */
-			toBoussole: function() {
+			/*toBoussole: function() {
 				this.$router.push({path: "/diagnostic"});
-			},
+			},*/
 			/**
 			 * Navigation vers la page d'accueil de la banque de ressources
 			 */
