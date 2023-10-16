@@ -5,12 +5,12 @@
 			<img class="img-text" alt="Logo DADI" src="@/assets/home/AccueilTitre.png" />
 		</div>
 		<div class="row">
-			<div class="col"  style="display: none">
+			<!--<div class="col">
 				<img class="img-div" alt="boussole" src="@/assets/home/boussole.png" />
 				<h3>La boussole</h3>
 				<p>Pour vous porter un regard réflexif sur différentes dimensions de votre savoir technopédagogique disciplinaire et obtenir des pistes pour innover dans votre situation personnelle</p>
 				<button class="custom-btn" v-on:click="toBoussole">faire le test</button>
-			</div>
+			</div>-->
 			<div class="col col-center" >
 				<img class="img-div" alt="Livre" src="@/assets/home/livre.png" />
 				<h3>La Banque de ressources</h3>
