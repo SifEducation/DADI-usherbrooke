@@ -11,9 +11,9 @@
 				</div>
 			</section>
 			<section>
-				<div class="legend-title">{{headerFilters.theme}}</div>
-				<!-- Affichage des elements possibles pour la thematique -->
-				<div class="elem-container" v-for="elem in ressourceFilters.thematique" v-bind:key="elem.text">
+				<div class="legend-title">{{headerFilters.categorie}}</div>
+				<!-- Affichage des elements possibles pour les catégories -->
+				<div class="elem-container" v-for="elem in ressourceFilters.categorie" v-bind:key="elem.text">
 					<img alt="picto" v-bind:src="require('@/assets/'+ elem.pictoPath.white)"/>
 					<span class="legend-text">{{elem.text}}</span>
 				</div>
@@ -22,14 +22,6 @@
 				<div class="legend-title">{{headerFilters.format}}</div>
 				<!-- Affichage des elements possibles pour le format des ressources -->
 				<div class="elem-container" v-for="elem in ressourceFilters.format" v-bind:key="elem.text">
-					<img alt="picto" v-bind:src="require('@/assets/'+ elem.pictoPath.white)"/>
-					<span class="legend-text">{{elem.text}}</span>
-				</div>
-			</section>
-			<section>
-				<div class="legend-title">{{headerFilters.cible}}</div>
-				<!-- Affichage des elements possibles pour le public cible -->
-				<div class="elem-container" v-for="elem in ressourceFilters.cible" v-bind:key="elem.text">
 					<img alt="picto" v-bind:src="require('@/assets/'+ elem.pictoPath.white)"/>
 					<span class="legend-text">{{elem.text}}</span>
 				</div>

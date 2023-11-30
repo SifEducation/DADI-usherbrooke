@@ -213,13 +213,13 @@
 			 * Navigation vers la page de questionnaire
 			 */
 			toPoursuivre: function() {
-				this.$router.push({path: "/diagnostic"});
+				//this.$router.push({path: "/diagnostic"});
 			},
 			/**
 			 * Navigation vers la page fin questionnaire
 			 */
 			toQuitter: function() {
-				this.$router.push({path: "/diagnostic/fin"});
+				//this.$router.push({path: "/diagnostic/fin"});
 			},
 			/**
 			 * Fonction appelee pour envoyer au composant le niveau du questionnaire et pour l'affichage conditionnel

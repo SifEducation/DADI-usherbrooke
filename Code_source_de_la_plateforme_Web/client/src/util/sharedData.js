@@ -81,7 +81,7 @@ module.exports = {
 					white: "iconLegend/blanc_icon_asynchrone.png",
 					black: "iconLegend/noir_icon_asynchrone.png"
 				},
-				text: "Distanciel 100% asynchrone"
+				text: "Distanciel asynchrone"
 			},
 			{
 				pictoPath: {
@@ -143,27 +143,57 @@ module.exports = {
 				text: "Culture disciplinaire"
 			}
 		],
+		categorie: [
+			{
+				pictoPath: {
+					white: "iconLegend/blanc_icon_article_science.png",
+					black: "iconLegend/noir_icon_article_science.png"
+				},
+				text: "Article de recherche"
+			},
+			{
+				pictoPath: {
+					white: "iconLegend/blanc_icon_exemplification.png",
+					black: "iconLegend/noir_icon_exemplification.png"
+				},
+				text: "Exemplification"
+			},
+			{
+				pictoPath: {
+					white: "iconLegend/blanc_icon_pratique_documentee.png",
+					black: "iconLegend/noir_icon_pratique_documentee.png"
+				},
+				text: "Pratique documentée"
+			},
+			{
+				pictoPath: {
+					white: "iconLegend/blanc_icon_synthese_thematique.png",
+					black: "iconLegend/noir_icon_synthese_thematique.png"
+				},
+				text: "Synthèse thématique"
+			},
+			{
+				pictoPath: {
+					white: "iconLegend/blanc_icon_tutoriel.png",
+					black: "iconLegend/noir_icon_tutoriel.png"
+				},
+				text: "Tutoriel"
+			},
+			{
+				pictoPath: {
+					white: "iconLegend/blanc_icon_repertoire.png",
+					black: "iconLegend/noir_icon_repertoire.png"
+				},
+				text: "Liste de vérification"
+			}
+		],
 		format: [
-			{
-				pictoPath: {
-					white: "iconLegend/blanc_icon_capsule_strategique.png",
-					black: "iconLegend/noir_icon_capsule_strategique.png"
-				},
-				text: "Capsule stratégique"
-			},
-			{
-				pictoPath: {
-					white: "iconLegend/blanc_icon_demarche_analyse.png",
-					black: "iconLegend/noir_icon_demarche_analyse.png"
-				},
-				text: "Démarche d'analyse"
-			},
 			{
 				pictoPath: {
 					white: "iconLegend/blanc_icon_aide_memoire.png",
 					black: "iconLegend/noir_icon_aide_memoire.png"
 				},
-				text: "Aide-mémoire"
+				text: "Audio"
 			},
 			{
 				pictoPath: {
@@ -174,59 +204,17 @@ module.exports = {
 			},
 			{
 				pictoPath: {
-					white: "iconLegend/blanc_icon_casfigure_exemple.png",
-					black: "iconLegend/noir_icon_casfigure_exemple.png"
-				},
-				text: "Cas de figure / exemple"
-			},
-			{
-				pictoPath: {
-					white: "iconLegend/blanc_icon_canevas_remplir.png",
-					black: "iconLegend/noir_icon_canevas_remplir.png"
-				},
-				text: "Canevas à remplir"
-			},
-			{
-				pictoPath: {
-					white: "iconLegend/blanc_icon_tuto.png",
-					black: "iconLegend/noir_icon_tuto.png"
-				},
-				text: "Tutoriel"
-			},
-			{
-				pictoPath: {
-					white: "iconLegend/blanc_icon_article_science.png",
-					black: "iconLegend/noir_icon_article_science.png"
-				},
-				text: "Articles scientifiques"
-			},
-			{
-				pictoPath: {
 					white: "iconLegend/blanc_icon_article_pro.png",
 					black: "iconLegend/noir_icon_article_pro.png"
 				},
-				text: "Articles professionnels"
-			},
-			{
-				pictoPath: {
-					white: "iconLegend/blanc_icon_ref_institut.png",
-					black: "iconLegend/noir_icon_ref_institut.png"
-				},
-				text: "Référence institutionnelle"
-			},
-			{
-				pictoPath: {
-					white: "iconLegend/blanc_icon_repertoire.png",
-					black: "iconLegend/noir_icon_repertoire.png"
-				},
-				text: "Répertoire"
+				text: "Textuel"
 			},
 			{
 				pictoPath: {
 					white: "iconLegend/blanc_icon_capsule_video.png",
 					black: "iconLegend/noir_icon_capsule_video.png"
 				},
-				text: "Capsules vidéos"
+				text: "Vidéos"
 			}
 		],
 		licence: [
@@ -387,6 +375,7 @@ module.exports = {
 		format:"Format de ressource",
 		licence:"Type de licence",
 		cible:"Public cible",
+		categorie:"Catégorie",
 		temps:"Temps à investir",
 		lien:"Lien vers la ressource"
 	},
@@ -396,6 +385,7 @@ module.exports = {
 		format:"Format",
 		licence:"License",
 		cible:"Public",
+		categorie:"Catégorie",
 		temps:"Temps"
 	},
 	/**

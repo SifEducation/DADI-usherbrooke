@@ -32,17 +32,6 @@
 				</div>
 			</div>
 			<div class="row section">
-				<div class="col-3">{{headerFilters.cible}}</div>
-				<div class="col-9">
-					<div class="picto" v-for="audiences in o_ressource.a_audiences" :key="audiences">
-						<div class="div-picto" >
-							<img alt="cont" :src="getIconPath(ressourceFilters.cible, audiences)"/>
-						</div>
-						<span>{{audiences}}</span>
-					</div>
-				</div>
-			</div>
-			<div class="row section">
 				<div class="col-3">{{headerFilters.temps}}</div>
 				<div class="col-9">
 					<div class="div-picto" >
@@ -52,12 +41,17 @@
 				</div>
 			</div>
 			<div class="row section">
-				<div class="col-3">Description</div>
-				<div class="col-8 description" >{{o_ressource.s_description}}</div>
-			</div>
-			<div class="row section">
 				<div class="col-3">Mots-clés associés</div>
 				<div class="col-8 mots-cles">{{o_ressource.a_tag.join(", ")}}</div>
+			</div>
+			<div class="row section">
+				<div class="col-3">{{headerFilters.categorie}}</div>
+				<div class="col-9">
+					<div class="div-picto" >
+						<img alt="cont" :src="getIconPath(ressourceFilters.categorie, o_ressource.s_categorie)"/>
+					</div>
+					<span>{{o_ressource.s_categorie}}</span>
+				</div>
 			</div>
 			<div class="row section">
 				<div class="col-3">{{headerFilters.formation}}</div>

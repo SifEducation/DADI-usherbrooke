@@ -152,7 +152,7 @@
 			// Mettre a jour le niveau courant si on entre dans un nouveau niveau
 			updateCurrentLevel.call(this);
 			if (this.i_current_level === 4) {
-				this.$router.push({path: "/diagnostic/fin"});
+				//this.$router.push({path: "/diagnostic/fin"});
 			} else {
 				// Recuperer les questionnaires possibles pour le niveau courant
 				Request.getQuestionnaires(1, this.i_current_level)
@@ -264,7 +264,7 @@
 			 * Quitter le questionnaire sans soumettre les reponses et se rediriger vers la page de fin
 			 */
 			toQuitter() {
-				this.$router.push({path: "/diagnostic/fin"});
+				//this.$router.push({path: "/diagnostic/fin"});
 			}
 		}
 	};

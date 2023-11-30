@@ -6,10 +6,9 @@
 				<AutoComplete :s_placeholder="headerFilters.placeholder" v-on:tagSelect="addTag"/>
 				<!-- Affichage des filtres selon chaque categorie -->
 				<Dropdown filter-id="contexts" :filter-text="headFiltersShort.formation" :filter-items="ressourceFilters.formation" v-on:filterChange="changeFilter"/>
-				<Dropdown filter-id="themes" :filter-text="headFiltersShort.theme" :filter-items="ressourceFilters.thematique" v-on:filterChange="changeFilter"/>
+				<Dropdown filter-id="categorie" :filter-text="headFiltersShort.categorie" :filter-items="ressourceFilters.categorie" v-on:filterChange="changeFilter"/>
 				<Dropdown filter-id="format" :filter-text="headFiltersShort.format" :filter-items="ressourceFilters.format" v-on:filterChange="changeFilter"/>
 				<Dropdown filter-id="license" :filter-text="headFiltersShort.licence" :filter-items="ressourceFilters.licence" v-on:filterChange="changeFilter"/>
-				<Dropdown filter-id="audiences" :filter-text="headFiltersShort.cible" :filter-items="ressourceFilters.cible" v-on:filterChange="changeFilter"/>
 				<Dropdown filter-id="duration" :filter-text="headFiltersShort.temps" :filter-items="ressourceFilters.temps" v-on:filterChange="changeFilter"/>
 				<button class="custom-btn search-btn" v-on:click="filterRessources">Rechercher</button>
 			</div>
@@ -55,6 +54,7 @@ export default {
 		Request.getRessources()
 			.then((a_res_data) => {
 				this.a_ressources = a_res_data;
+			console.log(a_res_data);
 			})
 			.catch(() => {
 				this.a_ressources = [];
@@ -72,12 +72,12 @@ export default {
 			headFiltersShort,
 			currentFilter: {
 				contexts: [],
-				themes: [],
+				categorie: [],
 				format: [],
 				license: [],
-				audiences: [],
 				duration:[],
-				tags: []
+				tags: [],
+				themes : []
 			},
 			b_filter_applied: false,
 			applied_filters: [],

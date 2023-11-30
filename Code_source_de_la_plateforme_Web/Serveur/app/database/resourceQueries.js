@@ -32,6 +32,9 @@ function _getSQLConditionString(s_filter, a_values, i_counter){
 
         case "contexts":
             return "daadi.vw_Ressource.contextes && ARRAY[" + a_queryCounters + "]::VARCHAR[]";
+            
+        case "categorie":
+            return "daadi.vw_Ressource.categorie = ANY(ARRAY[" + a_queryCounters + "]::VARCHAR[])";
 
         case "duration":
             return "daadi.vw_Ressource.temps_investi = ANY(ARRAY[" + a_queryCounters + "]::VARCHAR[])";
@@ -59,7 +62,6 @@ function _getSQLConditionString(s_filter, a_values, i_counter){
 				"format  NOT LIKE 'À déterminer'",
 				"chemin  NOT LIKE 'À déterminer'",
 				"description NOT LIKE 'À déterminer'",
-				"type_licence NOT LIKE 'À déterminer'",
 				"type_licence NOT LIKE 'À déterminer'"];
  }
 
@@ -76,6 +78,7 @@ function getResources(o_filter) {
     let i_valueCounter = 1;
 
     // Conversion des filtres en condition SQL et filtrage des filtres inutilises
+
     let sqlConditions = Object.entries(o_filter).map(([key, value]) => {
         if(value !== null) {
             const s_condition = _getSQLConditionString(key, value, i_valueCounter);

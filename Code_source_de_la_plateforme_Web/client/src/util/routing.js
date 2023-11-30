@@ -33,25 +33,6 @@ const routes = [
 		component: () => import("../views/guidepedagogique/NumericGuide.vue")
 	},
 	{
-		path: "/diagnostic",
-		name: "OutilAutoEvaluation",
-		/**
-		 * Fonction qui redirige a l'accueil ou la fin selon l'etat de completion du questionnaire
-		 * @returns {string} Chemin de la page a afficher
-		 */
-		redirect: () => {
-			if (localStorage.getItem("dadi_last_level") === "4") {
-				return "/diagnostic/fin";
-			}
-			return "/diagnostic/questionnaire";
-		}
-	},
-	{
-		path: "/diagnostic/questionnaire",
-		name: "AccueilQuestionnaire",
-		component: () => import("../views/questionnaire/QuestionnaireDim.vue")
-	},
-	{
 		path: "/banqueressource",
 		name: "BanqueRessources",
 		component: () => import("../views/banqueressource/RessourcesBank.vue")
@@ -87,21 +68,6 @@ const routes = [
 		path: "/conditions",
 		name: "ConditionsUtilisation",
 		component: () => import("../views/questionnaire/ConditionsUtilisation.vue")
-	},
-	{
-		path: "/diagnostic/resultats",
-		name: "PageResult",
-		component: () => import("../views/questionnaire/Resultats.vue")
-	},
-	{
-		path: "/diagnostic/fin",
-		name: "FinQuestionnaire",
-		component: () => import("../views/questionnaire/Fin.vue")
-	},
-	{
-		path: "/diagnostic/sondage",
-		name: "SondageQuestionnaire",
-		component: () => import("../views/questionnaire/Sondage.vue")
 	},
 	// Chemin qui capte tous les urls invalides
 	{

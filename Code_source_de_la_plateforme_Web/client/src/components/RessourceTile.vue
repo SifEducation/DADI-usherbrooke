@@ -1,26 +1,26 @@
 <template>
 	<div :class="'ressource-tile ' + getCenter()">
-		<h4>{{ressource.s_name}}</h4>
-		<div class="description"><span>{{ressource.s_description}}</span></div>
+		<!--<div class="ressource-name">
+			<h3>{{ressource.s_name}}</h3>
+		</div>-->
+		<div class="description"><span>{{ressource.s_name}}</span></div>
 		<div class="stick-bottom">
 			<button class="custom-btn" v-on:click="showRessourceCard">Consulter la fiche complète</button>
 			<!-- Affichage des icones selon chaque premiere valeur de filtre -->
 			<div class="icon-div">
-				<div>
-					<img alt="cont" :src="getIconPath(ressourceFilters.formation, ressource.a_contexts[0])"/>
-					<span class="tooltip-text">{{ressource.a_contexts[0]}}</span>
+				<div v-for="contexte in ressource.a_contexts" :key="contexte">
+					<img alt="cont" :src="getIconPath(ressourceFilters.formation, contexte)"/>
+					<span class="tooltip-text">{{contexte}}</span>
 				</div>
-				<div>
-					<img alt="theme" :src="getIconPath(ressourceFilters.thematique, ressource.a_theme[0])"/>
-					<span class="tooltip-text">{{ressource.a_theme[0]}}</span>
-				</div>
+			</div>
+			<div class="icon-div">
 				<div>
 					<img alt="fmt" :src="getIconPath(ressourceFilters.format, ressource.s_format)"/>
 					<span class="tooltip-text">{{ressource.s_format}}</span>
 				</div>
 				<div>
-					<img alt="pub" :src="getIconPath(ressourceFilters.cible, ressource.a_audiences[0])"/>
-					<span class="tooltip-text">{{ressource.a_audiences[0]}}</span>
+					<img alt="tps" :src="getIconPath(ressourceFilters.categorie, ressource.s_categorie)"/>
+					<span class="tooltip-text">{{ressource.s_categorie}}</span>
 				</div>
 				<div>
 					<img alt="lic" :src="getIconPath(ressourceFilters.licence, ressource.s_license)"/>
@@ -86,11 +86,11 @@
 </script>
 
 <style scoped>
-	h4 {
+	h3 {
 		color: #222277;
 		font-size: 15pt;
 		font-weight: 900;
-		text-transform: uppercase;
+		
 		padding-top: 45px;
 		padding-left: 20px;
 		padding-right: 20px;

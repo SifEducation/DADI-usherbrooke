@@ -89,7 +89,7 @@
 			 * Navigation vers un formulaire microsoft form
 			 */
 			toForm() {
-				this.$router.push({path: "/diagnostic/sondage"});
+				//this.$router.push({path: "/diagnostic/sondage"});
 			},
 			/**
 			 * Navigation vers la creation d'un compte
@@ -103,13 +103,13 @@
 			 */
 			toRestart() {
 				localStorage.clear();
-				this.$router.push({path: "/diagnostic"});
+				//this.$router.push({path: "/diagnostic"});
 			},
 			/**
 			 * Ramene a la page du choix du questionnaire
 			 */
 			toQuestionnaire() {
-				this.$router.push({path: "/diagnostic/questionnaire"});
+				//this.$router.push({path: "/diagnostic/questionnaire"});
 			}
 		}
 	};

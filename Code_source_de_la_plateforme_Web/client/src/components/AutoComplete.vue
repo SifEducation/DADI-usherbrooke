@@ -135,7 +135,7 @@
 	.search-input {
 		font-weight: bold;
 		font-size: 12pt;
-		width: 300px;
+		width: 440px;
 		height: 38px;
 		margin-right: 5px;
 		padding-left: 40px;

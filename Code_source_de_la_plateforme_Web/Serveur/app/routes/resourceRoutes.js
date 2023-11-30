@@ -24,6 +24,7 @@ function _reformatRequestValues(tag){
  * @param { string } themes Restriction des themes d'une ressource
  * @param { string } tags Restriction des etiquettes d'une ressource
  * @param { string } contexts Restriction des contextes d'une ressource
+ * @param { string } categorie Restriction des categorie d'une ressource
  * @param { string } duration Restriction des durees pour une ressource
  * @param { string } license Restriction des licences pour une ressource
  * @param { string } folder Restriction des dossiers pour une ressource
@@ -36,6 +37,7 @@ router.get('/', function(req, res, next){
         themes: _reformatRequestValues(req.query.themes),
         tags: _reformatRequestValues(req.query.tags),
         contexts: _reformatRequestValues(req.query.contexts),
+        categorie: _reformatRequestValues(req.query.categorie),
         duration: _reformatRequestValues(req.query.duration),
         license: _reformatRequestValues(req.query.license),
         folder: _reformatRequestValues(req.query.folder)
